@@ -1,7 +1,8 @@
-# predictive-paradox-iitg.ai
+# Predictive-Paradox-IElectricity Demand Forecasting
+# IITG.ai
 Recruitment task  for the AI club.
 A robust machine learning pipeline to forecast next-hour electricity demand using historical load, weather conditions, and macroeconomic indicators
-This project tackles real-world challenges such as noisy data, temporal dependencies, and feature engineering under strict constraints (no deep learning or time-series libraries).
+This project tackles real-world challenges such as noisy data, temporal dependencies, and feature engineering under strict constraints 
 
 The goal:
 
@@ -35,10 +36,7 @@ Rolling mean and standard deviation (6, 12, 24 hours)
 Merged yearly economic indicators with hourly data using calendar year
 
 # 4. Model
-Used RandomForestRegressor.Its key features:
-Ensemble Method: Combines several decision trees to improve accuracy and stabilize predictions.
-Reduced Overfitting: Uses bootstrap sampling (training each tree on a different subset) to reduce the variance of the model.
-Handling Missing Values: It has native support for missing values (NaNs).
+Used XGBRegressor.Its key features:
 
 # 5. Validation Strategy
 Strict chronological split
@@ -57,4 +55,8 @@ SDaily demand cycles
 Weekly patterns
 Weather-driven variations
 
+# Feature Importance and Prediction Plot
+
 ## I obtained MAPE score of 0.104 initially,but when I tried to improve the model by using XGBRegressor,I messed up the indexing,which after fixing gave me a MAPE score of 0.18
+## Now that deadline has extended to 3 am,I have implemented XGBRegressor and this thime I got MAPE score of 2.75%!!!
+### Very happy with learnings that I got while doing this task,it was nothing less than an advemture!
