@@ -1,4 +1,4 @@
-# Predictive-Paradox-IElectricity Demand Forecasting
+# Predictive-Paradox-Electricity Demand Forecasting
 # IITG.ai
 Recruitment task  for the AI club.
 A robust machine learning pipeline to forecast next-hour electricity demand using historical load, weather conditions, and macroeconomic indicators
